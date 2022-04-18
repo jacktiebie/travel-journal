@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+background-color: #F55A5A;
+width: 100vw;
+height: 10vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.nav-img {
+margin-right: 1.5%;
+}
+
+.nav-title {
+color: #FFF;
+font-weight: 500;
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+p, a {
+    font-size: 1.3rem;
+}
+
+
+.card-img {
+    width: 325px;
+    height: 368px;
+    border-radius: 5px;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 50px
+}
+
+.card-flex-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-location {
+    letter-spacing: 0.3em;
+    margin-right: 0.5rem;
+}
+
+.card-symbol {
+    width: 15px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.card-maps {
+    color: gray;
+}
+
+.card-title {
+    font-size: 3rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.strong {
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+
+}
+
+.card-text {
+    max-width: 700px;
+}
+
+.card-hr {
+    width: 270%;
+    margin-top: 50px;
+   opacity: 0.5;
+}
